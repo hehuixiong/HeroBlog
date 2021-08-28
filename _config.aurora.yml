@@ -10,16 +10,16 @@
 site:
   subtitle: NetEngine's Blog
   author: 络擎
-  nick: NETENGINE
-  description:
+  nick: .NETENGINE
+  description: Think like an artist, develop like an artisan. <br /> @ 公众号：技术星辰
   link: '/'
   language: en
   multi_language: true
-  logo: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/avatar.png
-  avatar: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/avatar.png
+  logo: https://img-blog.csdnimg.cn/20210313122054101.png
+  avatar: https://img-blog.csdnimg.cn/20210313122054101.png
   beian:
-    number: ''
-    link: ''
+    number: '粤ICP备2020127029号-1'
+    link: 'http://beian.miit.gov.cn'
   police_beian:
     number: ''
     link: ''
