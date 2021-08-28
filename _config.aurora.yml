@@ -11,9 +11,8 @@ site:
   subtitle: NetEngine's Blog
   author: 络擎
   nick: .NETENGINE
-  description: Think like an artist, develop like an artisan. <br /> @ 公众号：技术星辰
-  link: '/'
-  language: en
+  description: Think like an artist, develop like an artisan.
+  language: cn
   multi_language: true
   logo: https://img-blog.csdnimg.cn/20210313122054101.png
   avatar: https://img-blog.csdnimg.cn/20210313122054101.png
@@ -28,17 +27,14 @@ site:
 #! Authors Configs
 #! ---------------------------------------------------------------
 authors:
-  NetEngine:
-    name: 络擎
-    avatar: https://up.enterdesk.com/edpic_source/44/ff/3d/44ff3d6bd2819d524facfcc33205d4cd.jpg
-    link: https://github.com/NetEngine
-    description: 'Think like an artist, code like an artisan.'
-    socials:
-      github: https://github.com/hehuixiong
-      weibo: 'https://weibo.com/'
-      zhihu: 'https://www.zhihu.com'
-      csdn: 'https://blog.csdn.net'
-      juejin: 'https://juejin.cn'
+##! example
+  # NetEngine:
+  #   name: 'NetEngine'
+  #   avatar: 'https://up.enterdesk.com/edpic_source/44/ff/3d/44ff3d6bd2819d524facfcc33205d4cd.jpg'
+  #   link: 'https://github.com/NetEngine'
+  #   description: 'Think like an artist, code like an artisan.'
+  #   socials:
+  #     github: 'https://github.com'
 
 #! ---------------------------------------------------------------
 #! Menu Configs
@@ -70,6 +66,11 @@ theme:
 #! Social Configs
 #! ---------------------------------------------------------------
 socials:
+  github: 'https://github.com/NetEngine'
+  weibo: 'https://weibo.com/'
+  zhihu: 'https://www.zhihu.com'
+  csdn: 'https://blog.csdn.net'
+  juejin: 'https://juejin.cn'
   customs:
   ##! Example:
   ##! --- Using SVG
@@ -120,15 +121,14 @@ gitalk:
 # see https://valine.js.org/quickstart.html
 valine:
   enable: true
-  app_id: 8reCefaEPyGUfELAuWp33TpW-gzGzoHsz
-  app_key: o8jjpUN8qyYduGgSoX1jJjIy
-  avatar: monsterid
-  placeholder: Leave your thoughts behind~
+  app_id: QeeP2LOtOjuVA56OO271a5Xf-gzGzoHsz
+  app_key: SeLq53igCUKltpG28ioLOcll
+  avatar: wavatar
+  placeholder: 在这里输入您的评论以及想法...
   visitor: true
-  lang: en
+  lang: zh-CN
   avatarForce: false
   meta: ['nick', 'mail']
-  requiredFields: []
   admin: 'NetEngine'
   recentComment: true
 

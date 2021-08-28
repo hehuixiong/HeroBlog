@@ -1,5 +1,7 @@
 ---
-title: WHOAMI
+title: about
+data: 2019-03-26 20:20:59
+type: about
 ---
 
 <img src="https://cdn.jsdelivr.net/gh/hehuixiong/image-host/avatar.png" width="150px" style="margin: 0 auto;border-radius: 50%;">
@@ -30,11 +32,13 @@ Love outdoor travel and accept challenges, like to play the game of King glory a
 - captcha-lumen5 一 Lumen5 的验证码包
 *** -->
 ## <font color="#24c6dc">Dev Gears</font>
-- 硬件：[MackBook Pro](https://www.apple.com.cn) 15 寸
-- 系统：Mac 版本 11.5 以上
+- 硬件：[MackBook Pro](https://www.apple.com.cn) 16 寸
+- 系统：[MacOS Big Sur](https://www.apple.com.cn) 版本 11.0 以上
 - 编辑器：[Visual Studio Code](https://code.visualstudio.com)
+- 浏览器：[Chrome](https://google.cn/chrome) 版本 92.0.4515.159
+- 服务器：[阿里云](https://www.aliyun.com)
+- 虚拟机：[VirtualBox](https://www.virtualbox.org)
 - 命令行工具：[iTerm2 (Mac)](https://iterm2.com)
 - Markdown 编写工具：[Typora](https://www.typora.io)
-- 浏览器：[Chrome](https://google.cn/chrome)
-- 虚拟机：[VirtualBox](https://www.virtualbox.org)
+- 代码管理工具：[GitKraken](https://www.gitkraken.com)
 ***
