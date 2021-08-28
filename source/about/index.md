@@ -1,8 +1,8 @@
 ---
 title: WHOAMI
-date: 2019-03-25 12:00:00
-top_img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/DxMfhT.jpg
 ---
+
+<img src="https://cdn.jsdelivr.net/gh/hehuixiong/image-host/avatar.png" width="150px" style="margin: 0 auto;border-radius: 50%;">
 
 ## <font color="#24c6dc">Who am I</font>
 
@@ -22,19 +22,19 @@ Love outdoor travel and accept challenges, like to play the game of King glory a
 
 热爱户外旅游和接受挑战，喜欢玩王者荣耀与阴阳师游戏，生活和工作平衡，有节奏感的人生。
 ***
-## <font color="#24c6dc">Open Sources</font>
+<!-- ## <font color="#24c6dc">Open Sources</font>
 - vuejs-countdown-timer 一 Vue 2 活动倒计时组件
 - vuejs-scroll-fixed-header 一 Vue 2 滑动固定头部组件
 - vue-photoswipe 一 A Vue Integrated PhotoSwipe Image Preview Plugin
 - vuejs-sticky-directive 一 支持头部和底部 sticky 的功能, 使用的是原生 js 和 vue 的 directive 实现
 - captcha-lumen5 一 Lumen5 的验证码包
-***
+*** -->
 ## <font color="#24c6dc">Dev Gears</font>
 - 硬件：[MackBook Pro](https://www.apple.com.cn) 15 寸
 - 系统：Mac 版本 11.5 以上
 - 编辑器：[Visual Studio Code](https://code.visualstudio.com)
 - 命令行工具：[iTerm2 (Mac)](https://iterm2.com)
+- Markdown 编写工具：[Typora](https://www.typora.io)
 - 浏览器：[Chrome](https://google.cn/chrome)
 - 虚拟机：[VirtualBox](https://www.virtualbox.org)
-- Markdown 编写工具：[Typora](https://www.typora.io)
 ***
