@@ -30,7 +30,7 @@ authors:
 ##! example
   # NetEngine:
   #   name: 'NetEngine'
-  #   avatar: 'https://up.enterdesk.com/edpic_source/44/ff/3d/44ff3d6bd2819d524facfcc33205d4cd.jpg'
+  #   avatar: 'https://up.enterdesk.com/edpic_source/44/ff/3d/44ff3d6bd2819d524facfcc33205d4cd.png'
   #   link: 'https://github.com/NetEngine'
   #   description: 'Think like an artist, code like an artisan.'
   #   socials:
@@ -138,7 +138,7 @@ busuanzi:
   enable: true
 
 copy_protection:
-  enable: true
+  enable: false
   author:
     cn: 作者
     en: Author

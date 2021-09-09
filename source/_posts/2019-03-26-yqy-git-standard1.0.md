@@ -1,22 +1,21 @@
 ---
-title: 耀企GIT使用规范 v2.0
+title: 药企云GIT使用规范 v1.0 - git操作场景与敏捷迭代的介绍
 date: 2019-03-26 15:07:43
-# sticky: 1 是否置顶
-cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/DxMfhT.jpg
-top_img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/DxMfhT.jpg
+cover: https://s-gz-2804-image-netengine.oss.dogecdn.com/DxMfhT.png
+top_img: https://s-gz-2804-image-netengine.oss.dogecdn.com/DxMfhT.png
 tags:
   - git
 ---
 
-# 耀企GIT使用规范 v2.0
-> Git usage standards version 2.0
+# 药企云GIT使用规范 v1.0
+> Git usage standards version 1.0
 # 介绍
-每一个优秀的开发团队都会用到一套代码管理工具。根据目前最流行的代码管理工具非`GIT`莫属。不例外耀企团队绝对使用最优秀的规范和工具。根据耀企项目的具体部署环境，开发规范，我们有一套自己的规范和标准的`GIT`使用方式。
+每一个优秀的开发团队都会用到一套代码管理工具。根据目前最流行的代码管理工具非`GIT`莫属。不例外药企云团队绝对使用最优秀的规范和工具。根据药企云项目的具体部署环境，开发规范，我们有一套自己的规范和标准的`GIT`使用方式。
 
 # 敏捷迭代
-    如果要弄明白耀企的GIT使用，首先要了解清楚耀企项目的迭代流程
+如果要弄明白药企云的GIT使用，首先要了解清楚药企云项目的迭代流程
 
-![](https://cdn.jsdelivr.net/gh/hehuixiong/image-host/agile_development.png)
+![](https://s-gz-2804-image-netengine.oss.dogecdn.com/20190326150743.png)
 
 #### 什么是敏捷迭代？
 > 敏捷迭代就是把开发周期缩短到1-4周。小步快跑的迅速迭代交付功能上线。敏捷迭代的流程分别如下：
@@ -32,9 +31,9 @@ tags:
 
 #### 开发环境
 
-![](https://cdn.jsdelivr.net/gh/hehuixiong/image-host/agile_dev_envs.png)
+![](https://s-gz-2804-image-netengine.oss.dogecdn.com/20190326150744.png)
 
-    开发环境和git分支是一一对应的。
+开发环境和git分支是一一对应的。
 
 + 版本开发环境 - _dev/x.x.x 版本分支_
 + 测试/联调环境 - _qa/qa1，qa/qa2，qa/qa3 3个测试环境和分支_
@@ -44,8 +43,9 @@ tags:
 # Git操作场景
     这里我们按照实际开发流程和实际场景来解说怎么使用git
 
-> ### 开启新版本迭代
-![](https://cdn.jsdelivr.net/gh/hehuixiong/image-host/start_agile.png)
+### 开启新版本迭代
+
+![](https://s-gz-2804-image-netengine.oss.dogecdn.com/20190326150745.png)
 
 #### 操作步骤
 1. 从master分支创建一个版本分支
@@ -53,8 +53,9 @@ tags:
     - 前端：需要把接口版本好改为当前迭代的接口版本号
     - 后端：先创建对应当前迭代的接口版本好控制器和路由，然后合并就版本的控制器更变。
 
-> ### 开发周期版本提测/bug修复提测
-![](https://cdn.jsdelivr.net/gh/hehuixiong/image-host/agile_qa_start.png)
+### 开发周期版本提测/bug修复提测
+
+![](https://s-gz-2804-image-netengine.oss.dogecdn.com/20190326150746.png)
 
     提验收必须从版本分支合并qa分支
 
@@ -62,18 +63,19 @@ tags:
 1. 版本分支合并(merge)对应的测试分支(qa)
 2. 版本分支代码合并后对应的qa环境会自动部署代码到对应的环境服务器上
 
-> ### 开发周期版本提验收/bug修复提验收
-![](https://cdn.jsdelivr.net/gh/hehuixiong/image-host/agile_stage_start.png)
+### 开发周期版本提验收/bug修复提验收
 
-    提测必须从版本分支合并验收(release)分支
+![](https://s-gz-2804-image-netengine.oss.dogecdn.com/20190326150747.png)
+ 提测必须从版本分支合并验收(release)分支
 
 #### 操作步骤
 1. 版本分支合并(merge)验收分支(release)
 2. 版本分支代码合并release环境会自动部署代码到环境服务器上
-    - 如果是修复bug，就要先合并对应的qa分支后合并release分支。
+ - 如果是修复bug，就要先合并对应的qa分支后合并release分支。
 
-> ### 使用前版本修复上线流程
-![](https://cdn.jsdelivr.net/gh/hehuixiong/image-host/agile_bugfix.png)
+### 使用前版本修复上线流程
+
+![](https://s-gz-2804-image-netengine.oss.dogecdn.com/20190326150748.png)
 
 #### 操作步骤
 1. 使用当前`正式所在的版本`找到对应的`版本分支`作为修复分支
@@ -82,10 +84,10 @@ tags:
 4. 验收通过后，就可以通知开发组长以上的负责人合并master分支上线，然后通知测试在线上回归测试
 5. 在线上回归通过后，就可以把修复分支分别合并到`当前迭代版本分支`
 
-> ### 紧急修复上线流程
+### 紧急修复上线流程
  - 如果当前bug是很严重的，影响到用户使用的才需要使用紧急修复上线流程
  - 紧急修复上线必须先创建紧急修复(hotfix)分支
-![](https://cdn.jsdelivr.net/gh/hehuixiong/image-host/agile_hotfix.png)
+![](https://s-gz-2804-image-netengine.oss.dogecdn.com/20190326150749.png)
 
 #### 操作步骤
 1. 首先使用master分支创建紧急修复分支(hotfix/xxxx) - 使用`hotfix`前缀
@@ -95,11 +97,11 @@ tags:
 5. 在线上回归通过后，就可以把修复分支分别合并到`前版本分支`和`当前迭代版本分支`
 6. 最后在`本地(local)`和`远程(origin)`删除修复分支
 
-> ### 后端代码部署操作流程
+### 后端代码部署操作流程
  - 因为后端把不同模块都独立成一个composer包，所以git合并和部署流程跟前端是有区别的。这里分开来说明流程。
-![](https://cdn.jsdelivr.net/gh/hehuixiong/image-host/agile_backend_git.png)
+![](https://s-gz-2804-image-netengine.oss.dogecdn.com/20190326150750.png)
 
 #### 操作步骤
 1. 首先用每个`模块`的`版本分支`合并对应的qa分支
 2. 然后切换到`Foundation`应用，然后推送对应的环境发起环境部署
-    - 如果涉及多个模块需要同时发布，那就先把所有模块先合并好环境分支，然后再推Foundation。因为Foundation的某个环境启动了部署，必须部署完后才能发起下一次部署。
+ - 如果涉及多个模块需要同时发布，那就先把所有模块先合并好环境分支，然后再推Foundation。因为Foundation的某个环境启动了部署，必须部署完后才能发起下一次部署。

@@ -1,7 +1,7 @@
 ---
 title: "谈谈敏捷开发"
 date: 2020-03-22 12:07:43
-cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/article/agility.jpeg
+cover: https://s-gz-2804-image-netengine.oss.dogecdn.com/agility.png
 categories:
   - 开发技巧
 tags:

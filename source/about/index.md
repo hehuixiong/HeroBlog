@@ -4,7 +4,7 @@ data: 2019-03-26 20:20:59
 type: about
 ---
 
-<img src="https://cdn.jsdelivr.net/gh/hehuixiong/image-host/avatar.png" width="150px" style="margin: 0 auto;border-radius: 50%;">
+<img src="https://s-gz-2804-image-netengine.oss.dogecdn.com/avatar.png" width="150px" style="margin: 0 auto;border-radius: 50%;">
 
 ## <font color="#24c6dc">Who am I</font>
 

@@ -1,7 +1,7 @@
 ---
 title: "前端技能训练: 重构一"
 date: 2020-01-18 13:08:43
-cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/article/refactor.jpeg
+cover: https://s-gz-2804-image-netengine.oss.dogecdn.com/refactor.png
 categories:
   - 前端优化
 tags:
