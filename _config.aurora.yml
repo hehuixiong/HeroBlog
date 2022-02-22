@@ -10,12 +10,12 @@
 site:
   subtitle: Hero's Blog
   author: 络擎
-  nick: HERO
+  nick: HERO’SBLOG
   description: Think like an artist, develop like an artisan.
   language: cn
   multi_language: true
   logo: https://img-blog.csdnimg.cn/20210313122054101.png
-  avatar: https://img-blog.csdnimg.cn/20210313122054101.png
+  avatar: https://s-gz-2804-image-netengine.oss.dogecdn.com/avatar.jpeg
   beian:
     number: '粤ICP备2020127029号-1'
     link: 'http://beian.miit.gov.cn'
@@ -55,7 +55,7 @@ menu:
 #! ---------------------------------------------------------------
 theme:
   dark_mode: true
-  profile_shape: diamond # support `circle`, `diamond`, `rounded`
+  profile_shape: circle # support `circle`, `diamond`, `rounded`
   feature: true
   gradient:
     color_1: '#24c6dc'
