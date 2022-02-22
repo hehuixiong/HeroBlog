@@ -1,16 +1,16 @@
 #! ---------------------------------------------------------------
 #! Aurora Theme for Hexo
 #! ---------------------------------------------------------------
-#! Designed & Coded By NetEngine
+#! Designed & Coded By Hero
 #! ---------------------------------------------------------------
 
 #! ---------------------------------------------------------------
 #! Site Configs
 #! ---------------------------------------------------------------
 site:
-  subtitle: NetEngine's Blog
+  subtitle: Hero's Blog
   author: 络擎
-  nick: NETENGINE
+  nick: HERO
   description: Think like an artist, develop like an artisan.
   language: cn
   multi_language: true
@@ -28,10 +28,10 @@ site:
 #! ---------------------------------------------------------------
 authors:
 ##! example
-  # NetEngine:
-  #   name: 'NetEngine'
+  # Hero:
+  #   name: 'Hero'
   #   avatar: 'https://up.enterdesk.com/edpic_source/44/ff/3d/44ff3d6bd2819d524facfcc33205d4cd.png'
-  #   link: 'https://github.com/NetEngine'
+  #   link: 'https://github.com/Hero'
   #   description: 'Think like an artist, code like an artisan.'
   #   socials:
   #     github: 'https://github.com'
@@ -66,7 +66,7 @@ theme:
 #! Social Configs
 #! ---------------------------------------------------------------
 socials:
-  github: 'https://github.com/NetEngine'
+  github: 'https://github.com/Hero'
   weibo: 'https://weibo.com/'
   zhihu: 'https://www.zhihu.com'
   csdn: 'https://blog.csdn.net'
@@ -95,8 +95,8 @@ site_meta:
   cdn: cn
   favicon:
   description: '一位正在重塑知识的技术人'
-  keywords: 'Frontend, Web development, Blog, Aurora Theme, NetEngine'
-  author: 'NetEngine'
+  keywords: 'Frontend, Web development, Blog, Aurora Theme, Hero'
+  author: 'Hero'
 
 #! ---------------------------------------------------------------
 #! Plugins
@@ -109,8 +109,8 @@ gitalk:
   clientID: ''
   clientSecret: ''
   repo: 'dev-blog-comments'
-  owner: 'NetEngine'
-  admin: ['NetEngine']
+  owner: 'Hero'
+  admin: ['Hero']
   id: uid
   language: en
   distractionFreeMode: true
@@ -129,7 +129,7 @@ valine:
   lang: zh-CN
   avatarForce: false
   meta: ['nick', 'mail']
-  admin: 'NetEngine'
+  admin: 'Hero'
   recentComment: true
 
 # Enable Busuanzi statistic plugin
