@@ -1,8 +1,8 @@
 ---
-title: 药企云GIT使用规范 v2.0 - gitkraken工具的操作流程
+title: 药企云GIT使用规范 v2.0
 date: 2021-08-30 17:42:43
-cover: https://cdn.ithhx.cn/img-blog/20210830174243.png
-top_img: https://cdn.ithhx.cn/img-blog/20210830174243.png
+cover: https://cdn.ithhx.cn/img-blog/20220223163750.png
+top_img: https://cdn.ithhx.cn/img-blog/20220223163750.png
 tags:
   - git
   - gitkraken
@@ -12,7 +12,7 @@ tags:
 > Git usage standards version 2.0
 
 # 工具介绍-GitKraken
-GitKraken是基于Git代码管理的一个UI管理器，拥有非常精美的界面，可以配合Github、Gitee来使用。
+GitKraken是基于Git代码管理的一个UI管理器，拥有非常精美的界面，可以配合Gitlab、Github、Gitee来使用。
 
 <img src="https://cdn.ithhx.cn/img-blog/20210830174243.png" style="width: 100%;margin: 0 auto" />
 

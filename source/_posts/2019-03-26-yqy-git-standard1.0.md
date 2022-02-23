@@ -1,5 +1,5 @@
 ---
-title: 药企云GIT使用规范 v1.0 - git操作场景与敏捷迭代的介绍
+title: 药企云GIT使用规范 v1.0
 date: 2019-03-26 15:07:43
 cover: https://cdn.ithhx.cn/img-blog/DxMfhT.jpeg
 top_img: https://cdn.ithhx.cn/img-blog/DxMfhT.jpeg

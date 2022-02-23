@@ -2,6 +2,7 @@
 title: "谈谈敏捷开发"
 date: 2020-03-22 12:07:43
 cover: https://cdn.ithhx.cn/img-blog/agility.jpeg
+photos: https://cdn.ithhx.cn/img-blog/agility.jpeg
 categories:
   - 开发技巧
 tags:

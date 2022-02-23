@@ -1,7 +1,8 @@
 ---
-title: "使用Console技巧提高JS调试技能"
+title: "使用Console技巧提高JS调试效率"
 date: 2021-08-01 20:20:12
 cover: https://cdn.ithhx.cn/img-blog/20210830174244.jpeg
+photos: https://cdn.ithhx.cn/img-blog/20210830174244.jpeg
 categories:
   - 调试
 tags:

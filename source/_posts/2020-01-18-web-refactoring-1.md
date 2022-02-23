@@ -1,7 +1,8 @@
 ---
-title: "前端技能训练: 重构一"
+title: "前端技能训练-重构 v1.0"
 date: 2020-01-18 13:08:43
 cover: https://cdn.ithhx.cn/img-blog/refactor.jpeg
+photos: https://cdn.ithhx.cn/img-blog/refactor.jpeg
 categories:
   - 前端优化
 tags:

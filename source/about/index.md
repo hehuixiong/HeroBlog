@@ -33,7 +33,7 @@ Love outdoor travel and accept challenges, like to play the game of King glory a
 *** -->
 ## <font color="#24c6dc">Dev Gears</font>
 - 硬件：[MackBook Pro](https://www.apple.com.cn) 16 寸
-- 系统：[MacOS Big Sur](https://www.apple.com.cn) 版本 11.0 以上
+- 系统：[MacOS Big Sur](https://www.apple.com.cn) 版本 12.0 以上
 - 编辑器：[Visual Studio Code](https://code.visualstudio.com)
 - 浏览器：[Chrome](https://google.cn/chrome) 版本 92.0.4515.159
 - 服务器：[阿里云](https://www.aliyun.com)
