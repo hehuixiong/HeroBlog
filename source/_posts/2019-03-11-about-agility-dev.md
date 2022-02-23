@@ -1,6 +1,6 @@
 ---
 title: "谈谈敏捷开发"
-date: 2020-03-22 12:07:43
+date: 2019-03-11 12:00:00
 cover: https://cdn.ithhx.cn/img-blog/agility.jpeg
 photos: https://cdn.ithhx.cn/img-blog/agility.jpeg
 categories:
