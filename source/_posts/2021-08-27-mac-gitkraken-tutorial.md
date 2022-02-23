@@ -4,8 +4,8 @@ date: 2021-08-27 15:08:00
 sticky: 1
 description: 本篇文章介绍了Mac版GitKraken的破解方法
 keywords: GitKraken
-cover: 'https://s-gz-2804-image-netengine.oss.dogecdn.com/gitkraken.png'
-photos: https://s-gz-2804-image-netengine.oss.dogecdn.com/gitkraken.png
+cover: 'https://cdn.ithhx.cn/img-blog/gitkraken.jpeg'
+photos: https://cdn.ithhx.cn/img-blog/gitkraken.jpeg
 tags:
   - gitkraken
 ---
@@ -31,15 +31,15 @@ Vue3
 链接: https://pan.baidu.com/s/1VWWlRZNtKw_41x7x-L-k2A 提取码: giko
 下载完成之后，双击打开，里面有一个@7.0.0版本的GitKraken，把它拖动到mac访达里的应用程序，然后替换掉。
 
-![](https://s-gz-2804-image-netengine.oss.dogecdn.com/agile_app.png)
+![](https://cdn.ithhx.cn/img-blog/agile_app.jpeg)
 <font color='red'> 注：双击打开它的时候，会出现文件已损坏（这个时候别将它移到垃圾桶），执行后面的操作 </font>
 
 ## “Mac应用”已损坏，打不开解决办法
-![](https://s-gz-2804-image-netengine.oss.dogecdn.com/mac_damage_01.png)
+![](https://cdn.ithhx.cn/img-blog/mac_damage_01.jpeg)
 
 ## 问题说明：
 通常在非 Mac App Store下载的软件都会提示“xxx已损坏，打不开。您应将它移到废纸篓”或者“打不开 xxx，因为它来自身份不明的开发者”。
-![](https://s-gz-2804-image-netengine.oss.dogecdn.com/mac_damage_02.png)
+![](https://cdn.ithhx.cn/img-blog/mac_damage_02.jpeg)
 
 ## 原因：
 Mac电脑启用了安全机制，默认只信任Mac App Store下载的软件以及拥有开发者 ID 签名的软件，但是同时也阻止了没有开发者签名的 “老实软件”
@@ -51,7 +51,7 @@ Mac电脑启用了安全机制，默认只信任Mac App Store下载的软件以�
 sudo spctl --master-disable
 ```
 此行代码可以让 Mac 允许安装第三方来源的应用
-![](https://s-gz-2804-image-netengine.oss.dogecdn.com/mac_damage_03.png)
+![](https://cdn.ithhx.cn/img-blog/mac_damage_03.jpeg)
 
 #### 2.macOS Catalina 10.15系统：
 打开「终端.app」，输入以下命令并回车，输入开机密码回车
@@ -75,8 +75,7 @@ sudo xattr -rd com.apple.quarantine /Applications/CleanMyMac X.app
 附2：
 软件路径快速获取方法：
 将软件拖入「终端app」即可获得路径
-<!-- ![](https://s-gz-2804-image-netengine.oss.dogecdn.com/mac_damage_04.gif) -->
-![](https://image.iicheese.com/z0pz5.gif)
+![](https://cdn.ithhx.cn/img-blog/mac_damage_03.gif)
 ```
 1
 ```
@@ -91,9 +90,9 @@ xcode-select --install
 ```
 sudo codesign --force --deep --sign - (应用路径)
 ```
-![](https://s-gz-2804-image-netengine.oss.dogecdn.com/mac_damage_05.png)
+![](https://cdn.ithhx.cn/img-blog/mac_damage_05.jpeg)
 注意：空格不能漏
-![](https://s-gz-2804-image-netengine.oss.dogecdn.com/mac_damage_06.png)
+![](https://cdn.ithhx.cn/img-blog/mac_damage_06.jpeg)
 - 3.错误解决
 如出现以下错误提示：
 <font color='red'> /文件位置 : replacing existing signature </font>

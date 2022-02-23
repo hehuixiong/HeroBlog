@@ -1,7 +1,7 @@
 ---
 title: "使用Console技巧提高JS调试技能"
 date: 2021-08-01 20:20:12
-cover: https://s-gz-2804-image-netengine.oss.dogecdn.com/20210830174244.png
+cover: https://cdn.ithhx.cn/img-blog/20210830174244.jpeg
 categories:
   - 调试
 tags:

@@ -1,8 +1,8 @@
 ---
 title: 药企云GIT使用规范 v1.0 - git操作场景与敏捷迭代的介绍
 date: 2019-03-26 15:07:43
-cover: https://s-gz-2804-image-netengine.oss.dogecdn.com/DxMfhT.png
-top_img: https://s-gz-2804-image-netengine.oss.dogecdn.com/DxMfhT.png
+cover: https://cdn.ithhx.cn/img-blog/DxMfhT.jpeg
+top_img: https://cdn.ithhx.cn/img-blog/DxMfhT.jpeg
 tags:
   - git
 ---
@@ -15,7 +15,7 @@ tags:
 # 敏捷迭代
 如果要弄明白药企云的GIT使用，首先要了解清楚药企云项目的迭代流程
 
-![](https://s-gz-2804-image-netengine.oss.dogecdn.com/20190326150743.png)
+![](https://cdn.ithhx.cn/img-blog/20190326150743.png)
 
 #### 什么是敏捷迭代？
 > 敏捷迭代就是把开发周期缩短到1-4周。小步快跑的迅速迭代交付功能上线。敏捷迭代的流程分别如下：
@@ -31,7 +31,7 @@ tags:
 
 #### 开发环境
 
-![](https://s-gz-2804-image-netengine.oss.dogecdn.com/20190326150744.png)
+![](https://cdn.ithhx.cn/img-blog/20190326150744.png)
 
 开发环境和git分支是一一对应的。
 
@@ -45,7 +45,7 @@ tags:
 
 ### 开启新版本迭代
 
-![](https://s-gz-2804-image-netengine.oss.dogecdn.com/20190326150745.png)
+![](https://cdn.ithhx.cn/img-blog/20190326150745.png)
 
 #### 操作步骤
 1. 从master分支创建一个版本分支
@@ -55,7 +55,7 @@ tags:
 
 ### 开发周期版本提测/bug修复提测
 
-![](https://s-gz-2804-image-netengine.oss.dogecdn.com/20190326150746.png)
+![](https://cdn.ithhx.cn/img-blog/20190326150746.png)
 
     提验收必须从版本分支合并qa分支
 
@@ -65,7 +65,7 @@ tags:
 
 ### 开发周期版本提验收/bug修复提验收
 
-![](https://s-gz-2804-image-netengine.oss.dogecdn.com/20190326150747.png)
+![](https://cdn.ithhx.cn/img-blog/20190326150747.png)
  提测必须从版本分支合并验收(release)分支
 
 #### 操作步骤
@@ -75,7 +75,7 @@ tags:
 
 ### 使用前版本修复上线流程
 
-![](https://s-gz-2804-image-netengine.oss.dogecdn.com/20190326150748.png)
+![](https://cdn.ithhx.cn/img-blog/20190326150748.png)
 
 #### 操作步骤
 1. 使用当前`正式所在的版本`找到对应的`版本分支`作为修复分支
@@ -87,7 +87,7 @@ tags:
 ### 紧急修复上线流程
  - 如果当前bug是很严重的，影响到用户使用的才需要使用紧急修复上线流程
  - 紧急修复上线必须先创建紧急修复(hotfix)分支
-![](https://s-gz-2804-image-netengine.oss.dogecdn.com/20190326150749.png)
+![](https://cdn.ithhx.cn/img-blog/20190326150749.png)
 
 #### 操作步骤
 1. 首先使用master分支创建紧急修复分支(hotfix/xxxx) - 使用`hotfix`前缀
@@ -99,7 +99,7 @@ tags:
 
 ### 后端代码部署操作流程
  - 因为后端把不同模块都独立成一个composer包，所以git合并和部署流程跟前端是有区别的。这里分开来说明流程。
-![](https://s-gz-2804-image-netengine.oss.dogecdn.com/20190326150750.png)
+![](https://cdn.ithhx.cn/img-blog/20190326150750.png)
 
 #### 操作步骤
 1. 首先用每个`模块`的`版本分支`合并对应的qa分支
