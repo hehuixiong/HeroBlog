@@ -4,7 +4,7 @@ data: 2019-03-26 20:20:59
 type: about
 ---
 
-<img src="https://cdn.ithhx.cn/img-blog/avatar.png" width="150px" style="margin: 0 auto;border-radius: 50%;">
+<img src="https://cdn.ithhx.cn/img-blog/20220224084700.png" width="150px" style="margin: 0 auto;border-radius: 50%;">
 
 ## <font color="#24c6dc">Who am I</font>
 
