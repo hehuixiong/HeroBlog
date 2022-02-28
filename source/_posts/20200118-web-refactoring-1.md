@@ -1,8 +1,8 @@
 ---
 title: "前端技能训练-重构 v1.0"
 date: 2020-01-18 13:08:43
-cover: https://cdn.ithhx.cn/img-blog/20220224085233.png
-photos: https://cdn.ithhx.cn/img-blog/20220224085233.png
+cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224085233.png
+photos: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224085233.png
 categories:
   - 重构
 tags:

@@ -1,8 +1,8 @@
 ---
 title: Css实现网页png/svg等透明图片实时变色功能
 date: 2021-11-21 16:00:00
-cover: https://cdn.ithhx.cn/img-blog/20220223175343.png
-top_img: https://cdn.ithhx.cn/img-blog/20220223175343.png
+cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220223175343.png
+top_img: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220223175343.png
 categories:
   - Css
 tags:

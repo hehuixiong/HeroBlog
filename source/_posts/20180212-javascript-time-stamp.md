@@ -1,8 +1,8 @@
 ---
 title: JavaScript时间戳总结
 date: 2018-02-12 14:22:00
-cover: https://cdn.ithhx.cn/img-blog/20220223163912.png
-top_img: https://cdn.ithhx.cn/img-blog/20220223163912.png
+cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220223163912.png
+top_img: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220223163912.png
 categories:
   - JavaScript
 tags:

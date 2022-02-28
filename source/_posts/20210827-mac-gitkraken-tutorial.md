@@ -4,8 +4,8 @@ date: 2021-08-27 15:08:00
 sticky: 1
 description: 本篇文章介绍了Mac版GitKraken的破解方法
 keywords: GitKraken
-cover: https://cdn.ithhx.cn/img-blog/20220224085359.png
-photos: https://cdn.ithhx.cn/img-blog/20220224085359.png
+cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224085359.png
+photos: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224085359.png
 categories:
   - Mac
 tags:
@@ -33,15 +33,15 @@ Vue3
 链接: https://pan.baidu.com/s/1VWWlRZNtKw_41x7x-L-k2A 提取码: giko
 下载完成之后，双击打开，里面有一个@7.0.0版本的GitKraken，把它拖动到mac访达里的应用程序，然后替换掉。
 
-![](https://cdn.ithhx.cn/img-blog/20220224085401.png)
+![](https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224085401.png)
 <font color='red'> 注：双击打开它的时候，会出现文件已损坏（这个时候别将它移到垃圾桶），执行后面的操作 </font>
 
 ## “Mac应用”已损坏，打不开解决办法
-![](https://cdn.ithhx.cn/img-blog/20220224085402.png)
+![](https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224085402.png)
 
 ## 问题说明：
 通常在非 Mac App Store下载的软件都会提示“xxx已损坏，打不开。您应将它移到废纸篓”或者“打不开 xxx，因为它来自身份不明的开发者”。
-![](https://cdn.ithhx.cn/img-blog/20220224085403.png)
+![](https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224085403.png)
 
 ## 原因：
 Mac电脑启用了安全机制，默认只信任Mac App Store下载的软件以及拥有开发者 ID 签名的软件，但是同时也阻止了没有开发者签名的 “老实软件”
@@ -53,7 +53,7 @@ Mac电脑启用了安全机制，默认只信任Mac App Store下载的软件以�
 sudo spctl --master-disable
 ```
 此行代码可以让 Mac 允许安装第三方来源的应用
-![](https://cdn.ithhx.cn/img-blog/20220224085404.png)
+![](https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224085404.png)
 
 #### 2.macOS Catalina 10.15系统：
 打开「终端.app」，输入以下命令并回车，输入开机密码回车
@@ -77,7 +77,7 @@ sudo xattr -rd com.apple.quarantine /Applications/CleanMyMac X.app
 附2：
 软件路径快速获取方法：
 将软件拖入「终端app」即可获得路径
-![](https://cdn.ithhx.cn/img-blog/20220224085405.gif)
+![](https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224085405.gif)
 ```
 1
 ```
@@ -92,9 +92,9 @@ xcode-select --install
 ```
 sudo codesign --force --deep --sign - (应用路径)
 ```
-![](https://cdn.ithhx.cn/img-blog/20220224085406.png)
+![](https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224085406.png)
 注意：空格不能漏
-![](https://cdn.ithhx.cn/img-blog/20220224085407.png)
+![](https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224085407.png)
 - 3.错误解决
 如出现以下错误提示：
 <font color='red'> /文件位置 : replacing existing signature </font>

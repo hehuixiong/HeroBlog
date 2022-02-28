@@ -1,8 +1,8 @@
 ---
 title: TypeScript进阶之路
 date: 2022-02-18 14:00:00
-cover: https://cdn.ithhx.cn/img-blog/20220223175131.png
-top_img: https://cdn.ithhx.cn/img-blog/20220223175131.png
+cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220223175131.png
+top_img: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220223175131.png
 categories:
   - TypeScript
 tags:
@@ -17,7 +17,7 @@ tags:
 
 **TypeScript** 是一种由微软开发的自由和开源的编程语言。它是 JavaScript 的一个超集，而且本质上向这个语言添加了可选的静态类型和基于类的面向对象编程。
 TypeScript 提供最新的和不断发展的 JavaScript 特性，包括那些来自 2015 年的 ECMAScript 和未来的提案中的特性，比如异步功能和 Decorators，以帮助建立健壮的组件。下图显示了 TypeScript 与 ES5、ES2015 和 ES2016 之间的关系：
-<img src="https://cdn.ithhx.cn/img-blog/20220223170549.png" style="width: 400px;margin-top: 40px;" />
+<img src="https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220223170549.png" style="width: 400px;margin-top: 40px;" />
 
 #### 1.1 TypeScript 与 JavaScript 的区别
 
@@ -56,10 +56,10 @@ $ tsc helloworld.ts
 当然，对刚入门 **TypeScript** 的小伙伴来说，也可以不用安装 **typescript**，而是直接使用线上的 **TypeScript Playground**来学习新的语法或新特性。通过配置 **TS Config** 的 **Target**，可以设置不同的编译目标，从而编译生成不同的目标代码。
 下图示例中所设置的编译目标是**ES5**：
 
-![](https://cdn.ithhx.cn/img-blog/20220223171955.png)
+![](https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220223171955.png)
 
 #### 1.3 典型 TypeScript 工作流程
-![](https://cdn.ithhx.cn/img-blog/20220223174847.png)
+![](https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220223174847.png)
 
 如你所见，在上图中包含 3 个 **ts** 文件：**a.ts、b.ts** 和 **c.ts**。这些文件将被TypeScript编译器，根据配置的编译选项编译成 3 个 **js** 文件，即 **a.js、b.js 和 c.js**。对于大多数使用 **TypeScript** 开发的 **Web** 项目，我们还会对编译生成的 **js** 文件进行打包处理，然后在进行部署。
 

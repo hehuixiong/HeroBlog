@@ -1,8 +1,8 @@
 ---
 title: Web前端性能优化
 date: 2022-02-26 14:00:00
-cover: https://cdn.ithhx.cn/img-blog/20220223164807.png
-top_img: https://cdn.ithhx.cn/img-blog/20220223164807.png
+cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220223164807.png
+top_img: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220223164807.png
 categories:
   - 前端优化
 tags:
@@ -63,7 +63,7 @@ tags:
   * User Timing API ：⽤户⾃⼰定义在代码中通过调⽤ performance.mark（key） ⽅法定义的时间点。
   * Navigation Timing API ： 资源请求的时间戳，它⾥⾯包含的是我们从请求开始到整个⻚⾯的完全显示的各个阶段的时间点，具体时间点如下：
 
-![](https://cdn.ithhx.cn/img-blog/20220223145900.png)
+![](https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220223145900.png)
 
 
 ||key值|value值解释|
@@ -213,7 +213,7 @@ FCP指标后，首个长任务执行时间点，其后无长任务或2个get请�
 2. 持续 5 秒内⽆⻓任务（执⾏时间超过 50 ms）且⽆两个以上正在进⾏中的 GET 请求
 3. 往前回溯⾄ 5 秒前的最后⼀个⻓任务结束的时间
 
-![](https://cdn.ithhx.cn/img-blog/20220223154201.png)
+![](https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220223154201.png)
 
 ```javascript
 function getTTI() {
