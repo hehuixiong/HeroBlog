@@ -9,11 +9,7 @@ tags:
   - 优化
 ---
 
-# 前端性能优化
-[1、前端性能优化指标](https://www.h5w3.com/32655.html)
-[2、雅虎前端优化总结](https://www.h5w3.com/32655.html)
-
-## 1、前置知识
+# 1、前置知识
 面试题：输入url到页面最终呈现都发生了什么？
 - url解析：判断输入是关键字搜索还是url访问，对url进行解析
 - dns域名解析获取ip地址
@@ -51,14 +47,14 @@ tags:
   * 第三次挥手是服务器发送FIN报文请求关闭连接，进入LAST_ACK状态
   * 第四次挥手是浏览器收到FIN报文段，向服务器发送ACK报文段，进入TIME_WAIT状态。服务器接收到ACK报文关闭连接，浏览器等待一段时间后，表示服务器已关闭连接，也关闭连接。
 
-## 2、性能检测工具
+# 2、性能检测工具
 原理：就是在合适的时机，打上合适的时间戳，或者暴露出事件。然后通过这些时间戳之间的差值，得出⼀个耗时时间。这个耗时时间就可以反映出我们⻚⾯的相关性能。工具如下：
 
 - window全局作用域API：[performance](https://developer.mozilla.org/zh-CN/docs/Web/API/Performance)
 - 性能检测对象：[PerformanceObserver.observe()](https://developer.mozilla.org/zh-CN/docs/Web/API/PerformanceObserver/observe)
 - 前端框架：[web-vitals](https://www.npmjs.com/package/web-vitals)
 
-### 1、performance
+## 1、performance
 **Performance**接口可以获取到当前页面中与性能相关的信息。它是 High Resolution Time API 的一部分，同时也融合了Performance Timeline API、[Navigation Timing API](https://developer.mozilla.org/en-US/docs/Web/API/Navigation_timing_API)、 [User Timing API](https://developer.mozilla.org/en-US/docs/Web/API/User_Timing_API) 和 [Resource Timing API](https://developer.mozilla.org/en-US/docs/Web/API/Resource_Timing_API)
   * User Timing API ：⽤户⾃⼰定义在代码中通过调⽤ performance.mark（key） ⽅法定义的时间点。
   * Navigation Timing API ： 资源请求的时间戳，它⾥⾯包含的是我们从请求开始到整个⻚⾯的完全显示的各个阶段的时间点，具体时间点如下：
@@ -125,7 +121,7 @@ tags:
 
 ```
 
-### 2、performanceObserver
+## 2、performanceObserver
 PerformanceObserver.observe() ：指定监测的 entry types 的集合。 当 performance entry 被记录并且是指定的 entryTypes 之⼀的时候，性能观察者对象的回调函数会被调⽤。
 
 ```javascript
@@ -141,7 +137,7 @@ var observer = new PerformanceObserver(function(list, obj) {
 observer.observe({entryTypes: ["mark", "frame"]});
 ```
 
-### 3、web-vitals
+## 3、web-vitals
 
 前端框架，⽬前只能统计'**CLS**' | '**FCP**' | '**FID**' | '**LCP**' | '**TTFB**'。如果需要扩充的话，就可以使⽤上⾯的Performance 进⾏更改
 
@@ -153,9 +149,9 @@ getFID(console.log);
 getLCP(console.log);
 ```
 
-## 3、性能指标
+# 3、性能指标
 
-### 1、白屏时间FP
+## 1、白屏时间FP
 输入URL开始，到页面开始有变化，只要有任意像素点的变化，就算是白屏时间完结
 ```javascript
 function getFP() {
@@ -170,7 +166,7 @@ function getFP() {
 };
 ```
 
-### 2、首次内容绘制时间FCP
+## 2、首次内容绘制时间FCP
 指的是⻚⾯上绘制了第⼀个元素的时间
 
 FP与FCP的最⼤的区别就在于：FP 指的是绘制像素，⽐如说⻚⾯的背景⾊是灰⾊的，那么在显示灰⾊背景时就记录下了 FP 指标。但是此时 DOM 内容还没开始绘制，可能需要⽂件下载、解析等过程，只有当 DOM 内容发⽣变化才会触发，⽐如说渲染出了⼀段⽂字，此时就会记录下 FCP 指标。因此说我们可以把这两个指标认为是和⽩屏时间相关的指标，所以肯定是最快越好。
@@ -187,7 +183,7 @@ function getFP() {
 };
 ```
 
-### 3、首页时间FIRSTPAGE
+## 3、首页时间FIRSTPAGE
 当onload事件触发的时候，也就是整个⾸⻚加载完成的时候
 ```javascript
 function getFirstPage() {
@@ -195,7 +191,7 @@ function getFirstPage() {
 };
 ```
 
-### 4、最大内容绘制LCP
+## 4、最大内容绘制LCP
 ⽤于记录视窗内最⼤的元素绘制的时间，该时间会随着⻚⾯渲染变化⽽变化，因为⻚⾯中的最⼤元素在渲染过程中可能会发⽣改变，另外该指标会在⽤户第⼀次交互后停⽌记录。
 ```javascript
 function getLCP() {
@@ -207,7 +203,7 @@ function getLCP() {
 }
 ```
 
-### 5、首次可交互时间TTI
+## 5、首次可交互时间TTI
 FCP指标后，首个长任务执行时间点，其后无长任务或2个get请求。
 1. 从 FCP 指标后开始计算
 2. 持续 5 秒内⽆⻓任务（执⾏时间超过 50 ms）且⽆两个以上正在进⾏中的 GET 请求
@@ -222,10 +218,10 @@ function getTTI() {
 };
 ```
 
-### 6、网络请求耗时TTFB
+## 6、网络请求耗时TTFB
 网络请求耗时(TTFB): responseStart - requestStart
 
-### 7、首次输入延迟FID
+## 7、首次输入延迟FID
 从用户第一次与页面交互到浏览器实际能够开始处理事件的时间，在 FCP（首次内容绘制） 和 TTI （首次可交互时间）之间⽤户⾸次与⻚⾯交互时响应的延迟，eg：点击输入框后，因渲染等引起的延迟
 ```javascript
 function getFID() {
@@ -239,7 +235,7 @@ function getFID() {
  }
 ```
 
-### 8、累计位置偏移CLS
+## 8、累计位置偏移CLS
 ⻚⾯渲染过程中突然插⼊⼀张巨⼤的图⽚或者说点击了某个按钮突然动态插⼊了⼀块内容等等相当影响⽤户体验的⽹站。这个指标就是为这种情况⽽⽣的，计算⽅式为：位移影响的⾯积 * 位移距离。如下图： 0.25 * 0.75 = 0.1875 。CLS 推荐值为低于 0.1
 ```javascript
 function getCLS() {
@@ -268,7 +264,7 @@ function getCLS() {
 };
 ```
 
-### 9、使用方法
+## 9、使用方法
 1. 问题：这几个指标怎么使用
     - vue：定义公用方法类，common.js，mounted阶段页面进行挂载，$nextTick()里对响应方法进行使用
     - react：hooks useEffect()中使用react useEffect(() => {}, []);
@@ -284,12 +280,14 @@ function getCLS() {
   * FID 代表了页面的交互体验指标，毕竟没有一个用户希望触发交互以后页面的反馈很迟缓，交互响应的快会让用户觉得网页挺流畅。
   * CLS 代表了页面的稳定指标，尤其在手机上这个指标更为重要。因为手机屏幕挺小，CLS 值一大的话会让用户觉得页面体验做的很差。
 
-## 4、优化方法
-### 1、LCP
+# 4、优化方法
+
+## 1、LCP
 #### 1、影响元素
 影响白屏时间，相关因素如下：
   * body前是否存在阻塞的script标签，以及是否存在⻓时间执⾏的任务，即JS包⼤⼩问题以及是否启⽤了JS异步加载。
   * ⽹速问题
+
 #### 2、提升方法
   * 提⾼带宽（⽹速）
   * 需要使⽤webpack进⾏tree-shaking
@@ -300,30 +298,33 @@ function getCLS() {
   * 不要在头部添加任何script标签，或使用js异步加载defer。
   * 对于少量⼩图标（单个尽量不要超过10K的），我们可以使⽤url-loader打包。或者使⽤将图标转化为字体库，异步进⾏加载。
   * 对于⼤图标的话，需要做到在展示的时候再去加载。也就是当图⽚出现到浏览器窗⼝的时候再去加载，⽽不是⾸屏的图⽚全部加载。
-### 2、CIS
+
+## 2、CIS
 #### 1、提升方法
   * 如果经常需要变动的元素，脱离⽂档流，或者是占据位置，只是隐藏。
   * 对于位移等操作，使⽤动画代替，使⽤transform
   * 在定义图⽚的时候，就应该给出具体的宽⾼。
-### 3、FID
+
+## 3、FID
 对于⽤户可操作时间，影响⼀个是注册的事件是否可以被执⾏（说的通俗点就是JS脚本是否加载完毕），以及是否存在⻓任务。那么我们就可以有以下解决⽅案：
   * 对⽂件进⾏懒加载，不要⼀次性把所有的JS加载出来。这就需要使⽤路由懒加载，在跳转到某个路由的时候，再去加载他的脚本资源。这样就可以保证JS加载速度的优化。
   * 不要在响应事件⾥有过多的运算，导致卡顿。如果确有需要，应当开启webWorker，新起线程运算。
-### 4、bigpipe框架
+
+## 4、bigpipe框架
 bigPipe是由facebook提出来的⼀种动态⽹⻚加载技术。它将⽹⻚分解成称为pagelets的⼩块，然后分块传输到浏览器端，进⾏渲染。它可以有效地提升⾸屏渲染时间。bigpipe的适⽤是服务端进⾏渲染，然后将⼀块⼀块的⽂件传递给前端。
 
 > TIP
 > 面试：做了哪些性能相关的工作？
 > 如何统计性能、发现问题、处理问题、提升效果
 
-## 5、实战
+# 5、实战
 整体优化思路及解析：
 1. 从浏览器输入url到页面各阶段做了什么，进行性能优化
 2. 根据前端性能指标进行优化
 3. 框架特有的性能优化点：小程序分包、vue路由按需加载等
 4. 优化方法：开发规范、技术架构设计、系统架构设计
 
-### 1、浏览器加载优化
+## 1、浏览器加载优化
 1. DNS预解析、预链接
 ```html
 <!-- 开启隐式预解析：默认情况，浏览器对a标签中与当前域名不在同一域的相关域名进行预获取且缓存结果，对于https失效 -->
@@ -357,7 +358,8 @@ bigPipe是由facebook提出来的⼀种动态⽹⻚加载技术。它将⽹⻚�
 <!-- 延迟执⾏脚本，解析完</html>后执⾏，执⾏顺序不变 -->
 <script src="./static/defer-demo1.js" defer></script>
 ```
-### 2、性能指标监测
+
+## 2、性能指标监测
 分析工具：lighthouse、web-vitals
 
 底层api：performance
@@ -371,7 +373,7 @@ bigPipe是由facebook提出来的⼀种动态⽹⻚加载技术。它将⽹⻚�
 
   * CIS累计位置偏移：css动画设置位移、图片设置具体宽高
 
-### 3、优化方法
+## 3、优化方法
 
 #### 1、开发规范
   * css开发规范：雪碧图、图片格式优化、尽量减少重排和重绘，使用动画

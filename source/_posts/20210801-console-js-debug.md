@@ -16,7 +16,7 @@ tags:
 我们先来了解清楚浏览器的console。浏览器的console对象有提供自带的调试控制台。console对象只能在浏览器的 JavaScript 中使用，也就是说客户端应用可用而服务端应用不可用。它的作用或者效果会根据不同的浏览器而不同，但是基础使用方式和功能是基本一致的。不过console是可以在任何前端语言或者框架中使用。
 ***
 
-## console.log
+# console.log
 最常用的使用方式就是console.log，对前端开发工程师来说就是家常便饭了。以下是一个简单的使用例子。
 
 ```javascript
@@ -34,7 +34,7 @@ sayHello('Indrek')
 现在我们开始玩以下更有趣的调试方法。加入我们现在想知道sayHello这个方法被调用了多少次，这样我们应该怎么调试呢？其实有一个很简单的办法就是使用console.count().
 ***
 
-## console.count
+# console.count
 count()方法会输出某一个标示被调用了几次。如果没有穿任何参数，count()默认为使用默认标示defaut。
 
 ```javascript
@@ -68,7 +68,7 @@ sayHello('Indrek')
 ![](https://s2.ax1x.com/2019/10/13/uj1xhR.png)
 ***
 
-## console.warn
+# console.warn
 
 这个控台答应方法会输出一个警告信息。在你开发 APIs 或者开发工具的时候使用。console.warn这个方法在你需要警告用户的时候特别实用，例如漏掉了某个参数或者是让开发者知道你的 API/插件包的版本已经失效的时候使用。
 
@@ -87,7 +87,7 @@ sayHello()
 ![](https://s2.ax1x.com/2019/10/13/uj85Q0.png)
 ***
 
-## console.table
+# console.table
 如果是我们在调试数组或者对象时，console.table是一个非常实用的调试方法来在控制台打印数据。数组里面的每一个元素都会在表格的行里面展示。以下是的水果名数组作为一个例子，如果我们把这个数组传入console.table，我们会看到一个含有这个水果名数据以表格的方式在控制台被打印出来。
 
 ```javascript
@@ -190,7 +190,7 @@ console.table([pets, person])
 ![](https://s2.ax1x.com/2019/10/13/ujNtC4.png)
 ***
 
-## console.group
+# console.group
 当我们是在调试集合（sets）或者是关联数据（linked-data），可以使用嵌套组来优化你的控制台输出。使用console.group()来创建一个嵌套的组。
 
 ```javascript
@@ -212,7 +212,7 @@ console.log('Back to the first level')
 
 ***
 
-## 总结
+# 总结
 作为一名优秀的程序员，我们应该尽量在合适的场景或者合适的情况下运用在提供到给我的调试工具。所以这一篇文章提到的调试方式，我们应该在开发调试的过程中多合理运用，习惯后我们会发现调试起来会更加敏捷和高效。
 ***
 

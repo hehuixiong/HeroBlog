@@ -18,7 +18,7 @@ GitKraken是基于Git代码管理的一个UI管理器，拥有非常精美的界
 
 <img src="https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20210830174243.png" style="width: 100%;margin: 0 auto" />
 
-## GitKraken创建分支流程
+# GitKraken创建分支流程
 
 > 根据TAPD的迭代进行创建
 
@@ -44,7 +44,7 @@ GitKraken是基于Git代码管理的一个UI管理器，拥有非常精美的界
 
 ![](https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20210909101446.png)
 
-## GitKraken合并分支流程
+# GitKraken合并分支流程
 
 > 根据目前的工作流程，dev，feature，hotfix，这三个版块的分支，会进行合并（合并流程一致）
 
@@ -60,7 +60,7 @@ GitKraken是基于Git代码管理的一个UI管理器，拥有非常精美的界
 
 ![](https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20210909135406.png)
 
-## GitKraken注意事项
+# GitKraken注意事项
 > 开发分支不能合并开发分支，比如：dev/xxx不能与feature/xxx合并
   qa环境不能合并其他分支，release环境不能合并其他分支.
   所有的分支创建都是由master拉取.

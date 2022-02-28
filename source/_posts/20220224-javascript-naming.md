@@ -9,13 +9,13 @@ tags:
   - JavaScript
 ---
 
-## 前言
+# 前言
 
 在`前端开发`过程中，遵循标准的命名约定可以提高代码的可读性。下面就来看看 `JavaScript` 中命名约定的最佳实践。
 
 ***
 
-### 1. 变量的命名约定
+## 1. 变量的命名约定
 
 > JavaScript 变量名称是区分大小写的，大写和小写字母是不同的。比如：
 
@@ -75,7 +75,7 @@ let owner = true;
 let hasOwner = true;
 ```
 
-### 3. 函数的命名约定
+## 3. 函数的命名约定
 
 > JavaScript 中函数的名称也是区分大小写的。因为在声明函数时，推荐使用驼峰式方法来命名函数。
 > 除此之外，推荐使用描述性名词和动词来作为前缀。例如，如果声明一个函数来获取名称，则函数名字应该是 getName：
@@ -92,7 +92,7 @@ function getName(dogName, ownerName) {
 }
 ```
 
-### 4. 常量的命名约定
+## 4. 常量的命名约定
 
 > JavaScript 中的常量和变量是一样的，都区分大小写，在定义常量时，推荐使用大写，因为它们是不变的变量。
 
@@ -108,7 +108,7 @@ const MOVABLE = LEG + TAIL;
 const DAYS_UNTIL_TOMORROW = 1;
 ```
 
-### 5. 类的命名约定
+## 5. 类的命名约定
 
 > JavaScript 中类的命名约定规则与函数非常相似，推荐使用描述性的名称来描述类的功能。
 > 函数名和类名之间的主要区别在于类名要使用大写开头：
@@ -124,7 +124,7 @@ class DogCartoon {
 const cartoon = new DogCartoon('Scooby-Doo', 'Shaggy');
 ```
 
-### 6. 组件的命名规则
+## 6. 组件的命名规则
 
 > JavaScript 组件广泛应用于React、Vue等前端框架中。组件的命名建议与类保持一致，使用开头大写的驼峰式命名法：
 
@@ -160,7 +160,7 @@ function DogCartoon(roles) {
 </div>
 ```
 
-### 7. 方法的命名约定
+## 7. 方法的命名约定
 
 > 这里说的方法指的是类中方法，在 JavaScript 中，类的方法和函数的结构是非常类似的，因此，命名约定规则也是一样的。
 > 推荐需要使用驼峰式方法来声明 JavaScript 方法，并使用动词作为前缀，使方法名称更有意义：
@@ -182,7 +182,7 @@ const cartoon= new DogCartoon('Scooby-Doo', 'Shaggy');
 console.log(cartoon.getName());   // "Scooby-Doo Shaggy"
 ```
 
-### 8. 私有函数的命名约定
+## 8. 私有函数的命名约定
 
 > 下划线 (_) 在 MySQL 和 PHP 等语言中广泛用于定义变量、函数和方法。但在 JavaScript 中，下划线用于表示私有变量或函数。
 > 例如，有一个私有函数名 toonName，则可以通过添加下划线作为前缀 (_toonName) 来将其表示为私有函数。
@@ -210,11 +210,11 @@ name =cartoon._toonName(cartoon.dogName, cartoon.ownerName);
 console.log(name);   // "Scooby-Doo Shaggy"
 ```
 
-### 9. 全局变量的命名约定
+## 9. 全局变量的命名约定
 
 > 对于 JavaScript 全局变量，没有特定的命名标准。建议对可变全局变量使用驼峰式大小写的方式，对不可变全局对象使用大写。
 
-### 10. 文件名的命名约定
+## 10. 文件名的命名约定
 
 > 大多数 Web 服务器（Apache、Unix）在处理文件时都区分大小写。例如，flower.jpg 和 Flower.jpg 是不一样的。
 > 但是，如果从不区分大小写的服务器切换到区分大小写的服务器，即使是一个小错误也可能导致网站崩溃。

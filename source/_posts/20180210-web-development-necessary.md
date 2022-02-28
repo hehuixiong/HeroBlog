@@ -8,10 +8,10 @@ categories:
 tags:
   - web
 ---
-## 前言
+# 前言
 写个前端开发者，包含行业大牛博客，前端社区，开发工具，各种预编译工具打包工具和项目构建工具！更多内容持续更新…
 
-## 大牛博客
+# 大牛博客
 
 阮一峰博客： http://www.ruanyifeng.com/blog/
 
@@ -23,13 +23,13 @@ tags:
 
 大漠穷秋： https://my.oschina.net/mumu/
 
-## 视频教程
+# 视频教程
 
 极客学院： http://www.jikexueyuan.com/
 
 慕课网视频教程： http://www.imooc.com/
 
-## 前端社区
+# 前端社区
 
 前端网： http://www.qdfuns.com/
 
@@ -51,7 +51,7 @@ w3cplus： http://www.w3cplus.com/
 
 前端开发俱乐部： http://www.html-js.cn/
 
-## 前端工具类汇总
+# 前端工具类汇总
 
 前端开发仓库： http://code.ciaoca.com/
 
@@ -61,7 +61,7 @@ w3cplus： http://www.w3cplus.com/
 
 Bootstrap中文网开源项目免费CDN： http://www.bootcdn.cn/
 
-## 程序员综合
+# 程序员综合
 
 github： https://github.com/
 
@@ -71,7 +71,7 @@ CSDN： http://www.csdn.net/
 
 博客园： http://www.cnblogs.com/
 
-## 框架文档
+# 框架文档
 
 VUE中文： vuejs.org.cn
 
@@ -91,7 +91,7 @@ node中文网： http://cnodejs.org/getstart
 
 express中文网： http://www.expressjs.com.cn/
 
-## 预编译、打包、构建工具
+# 预编译、打包、构建工具
 
 less： http://less.bootcss.com/
 
@@ -109,7 +109,7 @@ gulp中文网： http://www.gulpjs.com.cn/
 
 webpack中文网： http://webpackdoc.com/
 
-## 前端团队博客
+# 前端团队博客
 
 腾讯前端团队
 
@@ -129,7 +129,7 @@ https://developer.mozilla.org/zh-CN/
 
 https://hacks.mozilla.org/
 
-## 开发工具IDE
+# 开发工具IDE
 
 sublime： www.sublimetext.com/
 

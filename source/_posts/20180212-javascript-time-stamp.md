@@ -11,7 +11,7 @@ tags:
 
 javascript时间戳经常用到，现在总结一下。
 
-## 一、时间戳函数
+# 一、时间戳函数
 ```javascript
 <script>   
 function getLocalTime(nS) {   
@@ -55,7 +55,7 @@ function   formatDate(now)   {
   alert(formatDate(d));
 ```
 
-## 二、知识普及
+# 二、知识普及
 
 ### 1、当前系统区域设置格式(toLocaleDateString和toLocaleTimeString)
 ```javascript
@@ -225,7 +225,7 @@ toUTCString函数 -- 返回date对象的世界标准时间(UTC)的字符串表�
 Date.UTC()函数 -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
 ```
 
-## 三、Javascript的时间戳和php的时间戳转换
+# 三、Javascript的时间戳和php的时间戳转换
 js的时间戳通常是13位，php的时间戳是10位,转换函数如下：
 ```javascript
 var nowtime = (new Date).getTime();/*当前时间戳*/   

@@ -13,7 +13,7 @@ tags:
 
 随着项目越来越大,市面上所使用的五花八门插件库也越来越多,随便一个项目都少说会1w+行代码以上,导致项目维护越来越差。尤其上在开发原生**JavaScript**的时候从中找**Bug**更是难如登天。**TypeScript**犹如**the Saviour**让更多开发者得心应手,也是现在开发大型工程化项目必不可缺少的一部分语言了...
 
-## 一、TypeScript 是什么?
+# 一、TypeScript 是什么?
 
 **TypeScript** 是一种由微软开发的自由和开源的编程语言。它是 JavaScript 的一个超集，而且本质上向这个语言添加了可选的静态类型和基于类的面向对象编程。
 TypeScript 提供最新的和不断发展的 JavaScript 特性，包括那些来自 2015 年的 ECMAScript 和未来的提案中的特性，比如异步功能和 Decorators，以帮助建立健壮的组件。下图显示了 TypeScript 与 ES5、ES2015 和 ES2016 之间的关系：
@@ -75,7 +75,7 @@ console.log(greet("TypeScript"));
 ```
 观察以上编译后的输出结果，我们发现 **person** 参数的类型信息在编译后被擦除了。**TypeScript** 只会在编译阶段对类型进行静态检查，如果发现有错误，编译时就会报错。而在运行时，编译生成的 **JS** 与普通的 **JavaScript** 文件一样，并不会进行类型检查。
 
-## 二、TypeScript 基础类型
+# 二、TypeScript 基础类型
 
 #### #2.1 Boolean 类型
 
