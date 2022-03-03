@@ -1,16 +1,16 @@
 #! ---------------------------------------------------------------
 #! Aurora Theme for Hexo
 #! ---------------------------------------------------------------
-#! Designed & Coded By Hero
+#! Designed & Coded By NetEngine
 #! ---------------------------------------------------------------
 
 #! ---------------------------------------------------------------
 #! Site Configs
 #! ---------------------------------------------------------------
 site:
-  subtitle: Hero's Blog
+  subtitle: NetEngine's Blog
   author: 络擎
-  nick: HERO’SBLOG
+  nick: NETENGINE
   description: Think like an artist, develop like an artisan.
   language: cn
   multi_language: true
@@ -28,10 +28,10 @@ site:
 #! ---------------------------------------------------------------
 authors:
 ##! example
-  # Hero:
-  #   name: 'Hero'
+  # NetEngine:
+  #   name: 'NetEngine'
   #   avatar: 'https://up.enterdesk.com/edpic_source/44/ff/3d/44ff3d6bd2819d524facfcc33205d4cd.png'
-  #   link: 'https://github.com/Hero'
+  #   link: 'https://github.com/NetEngine'
   #   description: 'Think like an artist, code like an artisan.'
   #   socials:
   #     github: 'https://github.com'
@@ -95,8 +95,8 @@ site_meta:
   cdn: cn
   favicon:
   description: '一位正在重塑知识的技术人'
-  keywords: 'Frontend, Web development, Blog, Aurora Theme, Hero'
-  author: 'Hero'
+  keywords: 'Frontend, Web development, Blog, Aurora Theme, NetEngine'
+  author: 'NetEngine'
 
 #! ---------------------------------------------------------------
 #! Plugins
@@ -109,8 +109,8 @@ gitalk:
   clientID: ''
   clientSecret: ''
   repo: 'dev-blog-comments'
-  owner: 'Hero'
-  admin: ['Hero']
+  owner: 'NetEngine'
+  admin: ['NetEngine']
   id: uid
   language: en
   distractionFreeMode: true
@@ -129,7 +129,7 @@ valine:
   lang: zh-CN
   avatarForce: false
   meta: ['nick', 'mail']
-  admin: 'Hero'
+  admin: 'NetEngine'
   recentComment: true
 
 # Enable Busuanzi statistic plugin
