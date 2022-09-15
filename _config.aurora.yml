@@ -14,8 +14,8 @@ site:
   description: Think like an artist, develop like an artisan.
   language: cn
   multi_language: true
-  logo: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224084600.png
-  avatar: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224084700.png
+  logo: https://s-gz-2804-blog-image.oss.dogecdn.com/20220224084600.png
+  avatar: https://s-gz-2804-blog-image.oss.dogecdn.com/20220224084700.png
   beian:
     number: '粤ICP备2020127029号'
     link: 'http://beian.miit.gov.cn'

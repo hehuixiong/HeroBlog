@@ -1,8 +1,8 @@
 ---
 title: 前端开发必备网站汇总
 date: 2018-02-10 15:00:00
-cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224160023.png
-top_img: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224160023.png
+cover: https://s-gz-2804-blog-image.oss.dogecdn.com/20220224160023.png
+top_img: https://s-gz-2804-blog-image.oss.dogecdn.com/20220224160023.png
 categories:
   - 敏捷开发
 tags:

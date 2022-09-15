@@ -1,8 +1,8 @@
 ---
 title: "使用Console技巧提高JS调试效率"
 date: 2021-08-01 20:20:12
-cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20210830174244.png
-photos: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20210830174244.png
+cover: https://s-gz-2804-blog-image.oss.dogecdn.com/20210830174244.png
+photos: https://s-gz-2804-blog-image.oss.dogecdn.com/20210830174244.png
 categories:
   - Console调试
 tags:

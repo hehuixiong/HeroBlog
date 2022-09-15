@@ -1,8 +1,8 @@
 ---
 title: "谈谈敏捷开发"
 date: 2019-03-11 12:00:00
-cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224160221.png
-photos: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220224160221.png
+cover: https://s-gz-2804-blog-image.oss.dogecdn.com/20220224160221.png
+photos: https://s-gz-2804-blog-image.oss.dogecdn.com/20220224160221.png
 categories:
   - 网站收藏
 tags:

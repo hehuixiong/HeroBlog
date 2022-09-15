@@ -1,8 +1,8 @@
 ---
 title: JavaScript中命名约定的最佳实践
 date: 2022-02-24 18:00:00
-cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220226142235.png
-top_img: https://cdn.jsdelivr.net/gh/hehuixiong/image-blog/20220226142235.png
+cover: https://s-gz-2804-blog-image.oss.dogecdn.com/20220226142235.png
+top_img: https://s-gz-2804-blog-image.oss.dogecdn.com/20220226142235.png
 categories:
   - JavaScript
 tags:
