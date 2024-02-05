@@ -4,7 +4,7 @@ data: 2019-03-26 20:20:59
 type: about
 ---
 
-<img src="https://s-gz-2804-blog-image.oss.dogecdn.com/20220224084700.png" width="150px" style="margin: 0 auto;border-radius: 50%;">
+<img src="http://s-gz-2804-blog-image.oss.dogecdn.com/20230204150000.jpg" width="150px" style="margin: 0 auto;border-radius: 50%;">
 
 ## <font color="#24c6dc">Who am I</font>
 

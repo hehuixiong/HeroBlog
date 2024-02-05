@@ -1,21 +1,21 @@
 #! ---------------------------------------------------------------
 #! Aurora Theme for Hexo
 #! ---------------------------------------------------------------
-#! Designed & Coded By NetEngine
+#! Designed & Coded By Hero
 #! ---------------------------------------------------------------
 
 #! ---------------------------------------------------------------
 #! Site Configs
 #! ---------------------------------------------------------------
 site:
-  subtitle: NetEngine's Blog
+  subtitle: 络擎 Hero H
   author: 络擎
-  nick: NETENGINE
+  nick: HERO-HHX
   description: Think like an artist, develop like an artisan.
   language: cn
   multi_language: true
   logo: https://s-gz-2804-blog-image.oss.dogecdn.com/20220224084600.png
-  avatar: https://s-gz-2804-blog-image.oss.dogecdn.com/20221020162721.png
+  avatar: http://s-gz-2804-blog-image.oss.dogecdn.com/20230204150000.jpg
   beian:
     number: '粤ICP备2020127029号'
     link: 'http://beian.miit.gov.cn'
@@ -28,10 +28,10 @@ site:
 #! ---------------------------------------------------------------
 authors:
 ##! example
-  # NetEngine:
-  #   name: 'NetEngine'
+  # Hero:
+  #   name: 'Hero'
   #   avatar: 'https://up.enterdesk.com/edpic_source/44/ff/3d/44ff3d6bd2819d524facfcc33205d4cd.png'
-  #   link: 'https://github.com/NetEngine'
+  #   link: 'https://github.com/Hero'
   #   description: 'Think like an artist, code like an artisan.'
   #   socials:
   #     github: 'https://github.com'
@@ -40,15 +40,24 @@ authors:
 #! Menu Configs
 #! ---------------------------------------------------------------
 menu:
-  About: true
-  Tags: true
-  Archives: true
-   # 自定义菜单
+  About:
+    i18n:
+      en: About
+      zh-CN: 关于
+      path: '/page/about'
+  Tags:
+    i18n:
+      en: Tags
+      zh-CN: 标签
+  Archives:
+    i18n:
+      en: Archives
+      zh-CN: 归档
   message-board:
     name: 'MessageBoard'
     i18n:
-      cn: '留言板'
       en: 'Message Board'
+      zh-CN: '留言板'
     path: '/page/message-board'
 #! ---------------------------------------------------------------
 #! Theme Config
@@ -95,8 +104,8 @@ site_meta:
   cdn: cn
   favicon:
   description: '一位正在重塑知识的技术人'
-  keywords: 'Frontend, Web development, Blog, Aurora Theme, NetEngine'
-  author: 'NetEngine'
+  keywords: 'Frontend, Web development, Blog, Aurora Theme, Hero'
+  author: 'Hero'
 
 #! ---------------------------------------------------------------
 #! Plugins
@@ -109,8 +118,8 @@ gitalk:
   clientID: ''
   clientSecret: ''
   repo: 'dev-blog-comments'
-  owner: 'NetEngine'
-  admin: ['NetEngine']
+  owner: 'Hero'
+  admin: ['Hero']
   id: uid
   language: en
   distractionFreeMode: true
@@ -129,7 +138,7 @@ valine:
   lang: zh-CN
   avatarForce: false
   meta: ['nick', 'mail']
-  admin: 'NetEngine'
+  admin: 'Hero'
   recentComment: true
 
 # Enable Busuanzi statistic plugin
@@ -353,3 +362,23 @@ aurora_bot:
 injects:
   scripts:
   css:
+
+#! ---------------------------------------------------------------
+#! Footer links
+#! ---------------------------------------------------------------
+footer_links:
+  - title: # main title
+    links:
+      - title: # link title
+        url: # URL link
+      - title: # link title
+        url: # URL link
+      - title: Friends # link of friends mode / 友链模式
+        mode: 'links'
+
+#! ---------------------------------------------------------------
+#! Highlighter Shiki
+#! ---------------------------------------------------------------
+shiki:
+  enable: true
+  backgroundColor: "#1a1a1a"
